@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <title>Marvin Nguyen | Web Developer</title>
+    <meta name="keywords" content="nguyenmarvin8, Marvin Nguyen, Front-end Web Development" />
+    <meta name="description" content="Marvin Nguyen | Front-end Web Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Marvin Nguyen</span>
+          <br />
+          I'm a Front-end Web Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">About Me</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About Me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                Hi, my name is Marvin and I'm a Front-End Web 
+                Developer in Denver, CO. I enjoy turning complex problems into simple, 
+                beautiful and intuitive websites.
+              </p>
+              <p class="about-wrapper__info-text">
+                
+              </p>
+              <p class="about-wrapper__info-text">
+                I would describe myself as fun, friendly, independent, 
+                a self-starter and most importantly a teamplayer. 
+                
+                I am a fast learner and 
+                will tackle any new task or assignment handed to me with drive and passion! 
+              </p>
+              <p class="about-wrapper__info-text">
+                I am currently a free agent, let's create something beautiful.  
+              </p>
+
+              <span class="d-flex justify-content-between mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://docs.google.com/document/d/14opJOrD7D7VfTc_wK1KkeiJ9dcOtn0CHqaGWrNafqdQ/edit?usp=sharing">
+                  View Resume
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://github.com/nguyenmarvin8">
+                  View GitHub
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://github.com/nguyenmarvin8">
+                  Contact via Email
+                </a>
+              </span>
+              <span class="d-inline-flex mt-3">
+
+              </span>
+              <!-- <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:nguyenmarvin8@gmail.com">
+                  Contact via Email
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Face Recognition App</h3>
+                <div>
+                  <p class="mb-4">
+                    This Face Recognition App allows users to submit a photo and when a face is detected, 
+                    a box is created over the face. It also allows users to create an account that tracks 
+                    their submission count. It is a fully functional full-stack CRUD based React web 
+                    application deployed on Heroku. This project was created using React.js, Node.js, Express.js
+                    and PostgreSQL database to keep track of user's accounts and track their 
+                    submissions. It also uses Clarifai's API to locate a face in the photo submitted.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://face-recognition-mn.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/nguyenmarvin8/Face-Recognition-App">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project1.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Hobby Inventory</h3>
+                <div>
+                  <p class="mb-4">
+                    Worked with a team developing a software designed to help hobbyists 
+                    keep track of their collections of items as well as interact with 
+                    APIs and use DataScraping to get up to date information on things 
+                    related to those collections and hobbies. This project is built 
+                    using Python, Django, SQLite, and HTML/CSS.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/nguyenmarvin8/Hobby-Inventory-Project">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project2.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <div>
+                  <p class="mb-4">
+                    Robofriends App is a REACT APP built using create-react-app. 
+                    This is a fully functional web application that allows users 
+                    to search between different randomly API generated robot names
+                     and appearances. It is fully functional and responsive 
+                     to various screen sizes. Technologies used in this application 
+                     were HTML5, CSS3, React.js along with RoboHash's API.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nguyenmarvin8.github.io/Robofriends/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/nguyenmarvin8/Robofriends">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project3.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact ME
+        </h2>
+        <div class="contact-wrapper">
+          <!-- <p class="contact-wrapper__text">
+            Please Contact me at
+          </p> -->
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:nguyenmarvin8@gmail.com"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a> -->
+          <a href="https://codepen.io/nguyenmarvin8" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nguyenmarvin/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/nguyenmarvin8" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
