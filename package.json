@@ -38,9 +38,6 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
-    "tilt.js": "^1.2.1",
-    "acorn": ">=6.4.1",
-    "minimist": ">=1.2.3",
-    "kind-of": ">=6.0.3"
+    "tilt.js": "^1.2.1"
   }
 }
